@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake PyPI</title>
+</head>
+
+<body>
+    <h1>Fake PyPi</h1>
+    <div>User: ${username}</div>
+    <ul>
+        <li>fastapi</li>
+        <li>uvicorn</li>
+        <li>chameleon</li>
+    </ul>
+</body>
+
+</html>
