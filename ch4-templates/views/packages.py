@@ -1,1 +1,3 @@
-from views.home import router
+import fastapi
+
+router = fastapi.APIRouter()

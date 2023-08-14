@@ -1,7 +1,7 @@
 import fastapi
 from fastapi_chameleon import template
-from views.home import router
 
+router = fastapi.APIRouter()
 
 @router.get("/account")
 def index():
