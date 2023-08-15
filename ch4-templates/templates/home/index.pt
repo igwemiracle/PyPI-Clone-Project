@@ -10,7 +10,8 @@
                         with the Python Package Index
                     </h1>
 
-                    <input type="text" class="form-control" placeholder=" Search projects">
+                    <input type="text" class="form-control"
+                           placeholder=" Search projects">
 
                     <br>
                     <br>

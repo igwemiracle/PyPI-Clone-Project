@@ -1,23 +1,23 @@
 import fastapi
-from fastapi_chameleon import template
 
 router = fastapi.APIRouter()
 
-@router.get("/account")
+
+@router.get('/account')
 def index():
-    pass
+    return {}
 
 
-@router.get("/account/register")
+@router.get('/account/register')
 def register():
-    pass
+    return {}
 
 
-@router.get("/account/login")
+@router.get('/account/login')
 def login():
-    pass
+    return {}
 
 
-@router.get("/account/logout")
+@router.get('/account/logout')
 def logout():
-    pass
+    return {}
