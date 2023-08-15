@@ -6,4 +6,4 @@ from viewmodels.shared.viewmodel import ViewModelBase
 class AccountViewModel(ViewModelBase):
     def __init__(self, request: Request):
         super().__init__(request)
-        self.user = User('Michael', 'michael@talkpython.fm', '9hsdhhsy74s')
+        self.user = User("Miracle", "micool123@gmail.com", "9hsdhhsy74s")
