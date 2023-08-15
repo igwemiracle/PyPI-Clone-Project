@@ -1,13 +1,16 @@
-from fastapi import FastAPI
+import fastapi
 import uvicorn
 
-app = FastAPI()
+app = fastapi.FastAPI()
 
 
-@app.get("/")
+@app.get('/')
 def index():
-    return "Hello World"
+    return {
+        'message': "Hello world"
+    }
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
+    # noinspection PyTypeChecker
     uvicorn.run(app)
