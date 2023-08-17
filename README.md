@@ -1,6 +1,6 @@
 # PYPI CLONE PROJECT
 
-## We used fastapi_chameleon template for our layouts
+### We used `fastapi_chameleon` template for our layouts
 
 - `author`:`mikeckennedy`
 
